@@ -1,7 +1,7 @@
 export default function PaginaDoChat() {
     return (
         <div>
-            <h1>Página do Chat</h1>
+            <h1>😊 Crie sua pagina 😊</h1>
         </div>
     )
 }

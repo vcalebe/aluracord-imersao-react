@@ -79,12 +79,14 @@ export default function PaginaInicial() {
                         }}
                     >
                         <Titulo tag="h2">Boas vindas de volta!</Titulo>
+                        
                         <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                             {appConfig.name}
                         </Text>
-                        
+                        <h4> Insira seu username GitHub</h4>
 
                         <TextField
+                            placeholder='Digite seu username GitHub'
                             fullWidth
                             textFieldColors={{
                                 neutral: {
